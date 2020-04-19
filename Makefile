@@ -13,7 +13,7 @@ uninstall:
 
 clean:
 	# Limpa a build
-	rm -rf ./build ./dist ./{{cookiecutter.package|replace('-', '_')}}.egg-info
+	rm -rf ./build ./dist ./vwapp_eda.egg-info
 
 pypi_test:
 	# Enviando o pacote para o PyPI Test
