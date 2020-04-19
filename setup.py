@@ -10,7 +10,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='vwapp-eda',
-    version='0.2.0',
+    version='0.2.1',
     url='https://github.com/VictorDeon/vwapp-eda',
     license='MIT License',
     author='Victor Deon',
@@ -25,7 +25,6 @@ setup(
       'Programming Language :: Python :: 3.5',
       'Programming Language :: Python :: 3.6',
       'Programming Language :: Python :: 3.7'
-      'Topic :: Software Development :: Bug Tracking',
     ],
     packages=find_packages(),
     include_package_data=True,
